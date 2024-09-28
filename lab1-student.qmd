@@ -26,7 +26,7 @@ document will render even if there are errors.
 ## Numeric Summaries of the Tooth Growth Data Set
 
 ```{r}
-#| eval: false
+#| eval: true
 #| echo: true
 #| label: practicing-running-code
 
@@ -35,6 +35,7 @@ data(ToothGrowth)
 
 # Look at the summary of the variables in the dataset.
 summary(ToothGrowth)
+
 ```
 
 **Question 3** -- Let's spice this code up a bit. Delete `1 + 1` from the code
@@ -98,3 +99,12 @@ should be **center aligned**.
 **Question 9** -- Specify a **figure caption** for the boxplots (using a
 code-chunk option).
 
+**Question 10** -- T-Test
+```{r}
+t.test(len ~ supp, data = ToothGrowth)
+```
+
+
+**Question 11** -- Run the code to obtain output from the t-test.
+
+**Question 12** -- Numbered list:
