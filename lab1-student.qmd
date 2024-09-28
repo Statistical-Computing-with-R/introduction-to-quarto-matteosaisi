@@ -63,6 +63,12 @@ section (e.g., Tooth Growth Dataset).
 ```{r}
 #| echo: true
 #| label: creating-a-plot
+#| layout-ncol: 2
+#| fig-subcap: 
+#| - "Growth of Teeth by Suppliment Type"
+#| - "Growth of Teeth by Amount of Vitamin C"
+#| fig-align: "center"
+
 
 library(tidyverse)
 
