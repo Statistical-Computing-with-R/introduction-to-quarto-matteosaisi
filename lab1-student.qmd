@@ -99,7 +99,9 @@ should be **center aligned**.
 **Question 9** -- Specify a **figure caption** for the boxplots (using a
 code-chunk option).
 
-**Question 10** -- T-Test
+## Conducting and Analyzing the output from a t-test.
+
+**Question 10** -- T-Test:
 ```{r}
 t.test(len ~ supp, data = ToothGrowth)
 ```
@@ -108,3 +110,11 @@ t.test(len ~ supp, data = ToothGrowth)
 **Question 11** -- Run the code to obtain output from the t-test.
 
 **Question 12** -- Numbered list:
+
+  1. The p-value I obtained in my t-test is 0.061. Because the observed p-value is greater than the significance level of 0.05, we fail to reject the null hypothesis that the increase in tooth length is the same between the two supplement delivery methods. This means that the tooth length numbers for the two different methods are not statistically/significantly different from one another. 
+  
+  2. I am 95% confident that the population mean difference in tooth growth for the OJ supplement and VC supplement is between -0.171 and 7.57 mm.
+
+**Question 13** -- Create another header to describe the contents of this section.
+  
+  - Header added between question 9 and 10.
