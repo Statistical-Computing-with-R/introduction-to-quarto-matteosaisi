@@ -5,8 +5,13 @@ date: "28 September 2024"
 format: html
 editor: source
 embed-resources: true
-execute: 
-  echo: false
+execute:
+  echo: true
+code-fold: true
+toc: true
+toc-depth: 2
+theme: lux
+warning: false
 ---
 
 # Part Two: Exploring Quarto Documents
@@ -72,6 +77,7 @@ section (e.g., Tooth Growth Dataset).
 
 
 library(tidyverse)
+
 
 ggplot(data = ToothGrowth, 
        mapping = aes(x = supp, y = len)) +
